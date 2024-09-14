@@ -1,0 +1,41 @@
+@strartuml clases
+}
+class frecuencia{
+    + string tipo de frecuencia;
+    + int ID de la frecuencia;
+    + doblue potencia ;
+    + double alcance;
+
+}
+class emisoras {
+    + string nombre de la emisora ;
+    + string programacion;
+    + string ciudad;
+    + string slogan;
+    + string formato musical;
+}
+class presentador {
+    + string nombre;
+    + int numero de identificacion;
+    + int edad ;
+    + string cuidad de origen;
+}
+class programa{
+    + string nombre del programa;
+    + string horario;
+    + string tipo de programa;
+    + string genero musical;
+    + string presentador;
+    + string invitados;
+}
+class horarios{
+    + string tiempo de un programa;
+
+}
+class publico{
+    + string generos de oyentes
+    + string edades del el publico
+    
+}
+
+@enduml
